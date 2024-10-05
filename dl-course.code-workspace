@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.cwd": "${workspaceFolder}",
+		"python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
+		"python.terminal.activateEnvironment": true,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter",
+		},
+		"black-formatter.path": [
+			"/Library/Frameworks/Python.framework/Versions/3.12/bin/blue",
+		],
+		"black-formatter.args": ["--line-length", "88"],
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file",
+		"editor.rulers": [
+			88
+		]
+	}
+}
