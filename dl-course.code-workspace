@@ -13,13 +13,17 @@
 			"editor.defaultFormatter": "ms-python.black-formatter",
 		},
 		"black-formatter.path": [
-			"/Library/Frameworks/Python.framework/Versions/3.12/bin/blue",
+			"/opt/anaconda3/bin/black"
 		],
 		"black-formatter.args": ["--line-length", "88"],
 		"editor.formatOnSave": true,
 		"editor.formatOnSaveMode": "file",
 		"editor.rulers": [
 			88
-		]
+		],
+		"python.analysis.typeEvaluation.deprecateTypingAliases": false,
+		"python.analysis.diagnosticSeverityOverrides": {
+			"reportDeprecated": false
+		},
 	}
 }
