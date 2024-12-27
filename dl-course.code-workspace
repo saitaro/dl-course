@@ -10,11 +10,11 @@
 		"python.terminal.activateEnvironment": true,
 		"python.terminal.activateEnvInCurrentTerminal": true,
 		"[python]": {
-			"editor.defaultFormatter": "ms-python.black-formatter",
+			"editor.defaultFormatter": "charliermarsh.ruff",
 		},
-		"black-formatter.path": [
-			"/opt/anaconda3/bin/black"
-		],
+		// "black-formatter.path": [
+		// 	"/opt/anaconda3/bin/black"
+		// ],
 		"black-formatter.args": ["--line-length", "88"],
 		"editor.formatOnSave": true,
 		"editor.formatOnSaveMode": "file",
@@ -25,5 +25,13 @@
 		"python.analysis.diagnosticSeverityOverrides": {
 			"reportDeprecated": false
 		},
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}",
+			"/opt/anaconda3/bin/",
+			"/opt/anaconda3/pkgs/",
+			"/opt/anaconda3/lib/python3.12/site-packages/"
+		],
+		"notebook.output.fontFamily": "DejaVu Sans Mono for Powerline",
+		"fastkaggle.executablePath": "/opt/anaconda3/bin/python",
 	}
 }

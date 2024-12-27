@@ -1,2 +1,13 @@
 .code-workspace
 .DS_Store
+lesson_12_conv_networks/data
+lesson_12_conv_networks/testset
+lesson_12_conv_networks/train
+lesson_15_semantic_segmentation/PH2Dataset
+lesson_15_semantic_segmentation/PH2Dataset.rar
+lesson_17-18_detection_autoencoders/mnist_data
+lesson_17-18_detection_autoencoders/lfw-deepfunneled
+lesson_20_gans/data
+*.pt
+*.pptx
+*.pdf
