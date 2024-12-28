@@ -1,5 +1,6 @@
 .code-workspace
 .DS_Store
+lesson_9_neural_networks/MNIST
 lesson_12_conv_networks/data
 lesson_12_conv_networks/testset
 lesson_12_conv_networks/train
