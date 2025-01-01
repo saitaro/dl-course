@@ -20,6 +20,7 @@
 		// "ruff.nativeServer": "on",
 		"ruff.organizeImports": true,
 		"ruff.importStrategy": "fromEnvironment",
+		"ruff.lint.enable": false,
 		"black-formatter.args": ["--line-length", "100"],
 		"editor.formatOnSave": true,
 		"editor.formatOnSaveMode": "file",
